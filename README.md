@@ -1,4 +1,4 @@
-### In this exercise, we will explore Yelp reviews of businesses in Charlotte, NC.  
+### Exploration and Analysis of Yelp reviews of businesses in Charlotte, NC.  
 
 #### Power Pivot
 

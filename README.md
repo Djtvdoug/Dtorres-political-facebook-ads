@@ -34,14 +34,14 @@ Finally, select to write a query to specify the data to import. The full dataset
 
  3. Under the `Home` tab, click on `Diagram View`. Rearrange your tables so that the `fact_review` table is in the center. Drag the `user_id` from the `dimension_user` table to the `user_id` from the `fact_review` table. Also, drag the `business_id` from the `fact_review` table to the `business_id` in the `dimension_business` table.  
 
-        a. Which  user has the lowest average review score? When answering this question, use the star column from the `fact_review` table (not the one in the `dimension_user` table). Also, **only** consider users who have written at least 25 reviews. Drill down to see this user’s reviews. What types of businesses does this user tend to review?   
+       a. Which  user has the lowest average review score? When answering this question, use the star column from the `fact_review` table (not the one in the `dimension_user` table). Also, **only** consider users who have written at least 25 reviews. Drill down to see this user’s reviews. What types of businesses does this user tend to review?   
 
-        b. Which business has the highest number of 5-star reviews? (Make sure that you use count of stars, not sum of stars here!). Which has the highest number of 1-star reviews? Highest number of total reviews?  
+      b. Which business has the highest number of 5-star reviews? (Make sure that you use count of stars, not sum of stars here!). Which has the highest number of 1-star reviews? Highest number of total reviews?  
 
-        BONUS:  The business with the highest number of 5-star reviews might just be one that has been reviewed a lot. Redo the previous question but this time, find the business with the highest proportion of 5-star reviews. To ensure that we have a large enough sample of reviews, only consider businesses with at least 100 reviews. Which business has the highest proportion of 1-star reviews? Again, only consider businesses having at least 100 reviews.   
+     BONUS:  The business with the highest number of 5-star reviews might just be one that has been reviewed a lot. Redo the previous question but this time, find the business with the highest proportion of 5-star reviews. To ensure that we have a large enough sample of reviews, only consider businesses with at least 100 reviews. Which business has the highest proportion of 1-star reviews? Again, only consider businesses having at least 100 reviews.   
 
 #### Power Map
-    What business has the most locations? Drill down to a table showing all of this business’s locations. Add a column to the drilled down table. In this column, create that location’s full address by concatenating the address, city, state, and zip code. Next, add this table to the data model and give it an appropriate name. To jazz up our map, we’ll need a relationship with this table and the `fact_review` table, so create a relationship between them. Create a 3D Map/Power Map showing all of the locations of this business. Try adding bars for average review, how reviews changed over time, etc. 
+What business has the most locations? Drill down to a table showing all of this business’s locations. Add a column to the drilled down table. In this column, create that location’s full address by concatenating the address, city, state, and zip code. Next, add this table to the data model and give it an appropriate name. To jazz up our map, we’ll need a relationship with this table and the `fact_review` table, so create a relationship between them. Create a 3D Map/Power Map showing all of the locations of this business. Try adding bars for average review, how reviews changed over time, etc. 
 
 
 

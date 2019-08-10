@@ -42,11 +42,11 @@ Finally, select to write a query to specify the data to import. The full dataset
 
       c. How many businesses in the dataset are no longer open? Does there appear to be a difference in the average stars recieved by businesses that are still open and those that have closed?
 
-      c. Explore how reviews have changed from year to year. For example, look at number of reviews per year, percentage of reviews by number of stars, or anything else interesing that you find.
+      d. Explore how reviews have changed from year to year. For example, look at number of reviews per year, percentage of reviews by number of stars, or anything else interesing that you find.
       
-      d. In the fact_review table, create a new column which contains the number of words in each review. Using this, find the user who writes the longest reviews on average. Consider only reviewers who have written at least 25 reviews. Do positive reviews tend to be longer or shorter than negative reviews? Which business has the longest average review length?
+      e. In the fact_review table, create a new column which contains the number of words in each review. Using this, find the user who writes the longest reviews on average. Consider only reviewers who have written at least 25 reviews. Do positive reviews tend to be longer or shorter than negative reviews? Which business has the longest average review length?
       
-      e. If you were planning a trip to Charlotte and could only use the reviews of one user to plan your trip, which user would you choose and why?
+      f. If you were planning a trip to Charlotte and could only use the reviews of one user to plan your trip, which user would you choose and why?
       
       Difficult Bonus (Save this for the very last): Recommendation sites depend on groups of users having similar tastes. Find all users who have given McDonald's 5 stars on at least one review. Then find all users who have given Del Frisco's Double Eagle Steak House a 5 star review. Finally, see if you can find any differences in businesses highly reviewed by each group.
       
